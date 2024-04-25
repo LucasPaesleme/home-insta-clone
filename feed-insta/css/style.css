@@ -2,4 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family: Helvetica, sans-serif, Arial ;
+}
+
+/* LEFT CONTAINER */
+
+.left-section{
+    
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container .logo-insta{
+    width: 8rem;
 }
