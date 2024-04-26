@@ -1,3 +1,4 @@
+/* GERAIS */
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +7,61 @@
     font-family: Helvetica, sans-serif, Arial ;
 }
 
-/* LEFT CONTAINER */
-
-.left-section{
-    
+a{
+    text-decoration: none;
 }
+
+
+/* LEFT CONTAINER */
 
 .left-container{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #dddd;
+    height: 100%;
+    max-width: 15rem;
+    width: 15rem;
 }
 
 .left-container .logo-insta{
-    width: 8rem;
+    max-width: 8rem;
+    margin: 30% 20%;
+    cursor: pointer;
 }
+
+.up-side{
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.up-side > *{
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.up-side i, a img {
+    margin-right: 10px;
+}
+
+
+.down-side > *{
+    padding: 15px 0;
+    font-size: 1.3rem;
+}
+
+.down-side{
+    margin-left: 2rem;
+    margin-top: 40%;
+}
+
+.down-side i, a img{
+    margin-right: 10px;
+}
+
+
+
+
