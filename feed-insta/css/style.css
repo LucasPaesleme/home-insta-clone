@@ -28,19 +28,28 @@ a{
 
 .left-container .logo-insta{
     max-width: 8rem;
-    margin: 30% 20%;
     cursor: pointer;
+    margin: 2rem 1rem;
 }
 
 .up-side{
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 5rem;
-    margin-top: 3rem;
+    color: #0000;
 }
 
-.up-side > *{
-    padding: 1rem 0;
+.up-side a{
+    color: #000;
+    font-size: 1rem;
+}
+
+.up-side i, img {
     font-size: 1.3rem;
+}
+
+.up-side > * {
+    padding: 1rem 0;
+    
 }
 
 .up-side i, a img {
@@ -50,18 +59,32 @@ a{
 
 .down-side > *{
     padding: 15px 0;
-    font-size: 1.3rem;
+    
 }
 
 .down-side{
-    margin-left: 2rem;
-    margin-top: 40%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 1rem;
+    
 }
 
 .down-side i, a img{
     margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+.down-side a{
+    color: #000;
+    font-size: 1rem;
 }
 
 
+section.left-section a:active{
+    font-weight: bold;
+}
 
 
