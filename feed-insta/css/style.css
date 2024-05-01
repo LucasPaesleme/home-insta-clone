@@ -24,6 +24,7 @@ a{
     height: 100%;
     max-width: 15rem;
     width: 15rem;
+    transition: 0.2s;
 }
 
 .left-container .logo-insta{
@@ -37,11 +38,27 @@ a{
     margin-left: 1rem;
     margin-bottom: 5rem;
     color: #0000;
+    
 }
 
 .up-side a{
     color: #000;
     font-size: 1rem;
+    transition: .2s;
+}
+nav li{
+    transition: .3s;
+    
+}
+
+nav li i, img{
+    padding-left: 10px;
+}
+
+nav li:hover{
+    background-color: #dddddd3b;
+    border-radius: 10px;
+    margin-right: 1rem;
 }
 
 .up-side i, img {
@@ -50,12 +67,19 @@ a{
 
 .up-side > * {
     padding: 1rem 0;
-    
+
 }
+
+
 
 .up-side i, a img {
     margin-right: 10px;
 }
+
+.page-ini {
+    font-weight: bold;
+}
+
 
 /* DOWN SIDE */
 
@@ -86,16 +110,12 @@ a{
 }
 
 
-section.left-section a:active{
-    font-weight: bold;
-}
-
 
 
 /* STORYS */
 
 section .interface{
-    background-color: #000;
+    /* background-color: #000; */
     max-width: 50%;
 }
 
