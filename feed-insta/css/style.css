@@ -30,9 +30,9 @@ a{
 }
 
 .left-container .logo-insta{
-    max-width: 8rem;
+    max-width: 7rem;
     cursor: pointer;
-    margin: 2rem 1rem;
+    margin: 2.4rem 12px;
 }
 
 /* UP-SIDE */
@@ -55,9 +55,9 @@ a{
     font-size: 1.3rem;
 }
 
+
 .up-side > * {
     padding: 1rem 0;
-
 }
 
 
@@ -102,7 +102,7 @@ header nav li:hover{
     display: flex;
     flex-direction: column;
     left: 1rem;
-    bottom: 10px; 
+    bottom: 18px; 
 }
 
 
@@ -124,32 +124,38 @@ header nav li:hover{
 
 section .interface{
     /* background-color: #000; */
-    max-width: 88%;
+    max-width: 93%;
 }
 
 .story-nav ul{
     display: flex;
     justify-content: center;
-    gap: 9px;
+    gap: 4px;
     margin-top: 20px;
     padding: 2px;
 }
 
-.story-nav ul li{
-    margin: 4px;
-}
 .story img{
     width: 80px;
     height: 70px;
 }
 
-.story{
-    border-radius: 1px solid #000;
-}
 .name-story{
     text-align: center;
     margin-left: 12px;
 }
+
+
+.list-itens li , p {
+    cursor: pointer;
+}
+
+.list-itens p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* FEED NOTICIAS */
 
 
 
