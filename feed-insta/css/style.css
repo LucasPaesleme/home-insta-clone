@@ -72,16 +72,16 @@ a{
 
 /* Nav Style */
 
-nav li{
+header nav li{
     transition: .1s;
     
 }
 
-nav li i, img{
+header nav li i, img{
     padding-left: 10px;
 }
 
-nav li:hover{
+header nav li:hover{
     background-color: #dddddd3b;
     border-radius: 10px;
     margin-right: 15px;
@@ -124,12 +124,33 @@ nav li:hover{
 
 section .interface{
     /* background-color: #000; */
-    max-width: 50%;
+    max-width: 88%;
 }
 
-.feed{
+.story-nav ul{
     display: flex;
     justify-content: center;
     gap: 9px;
     margin-top: 20px;
+    padding: 2px;
 }
+
+.story-nav ul li{
+    margin: 4px;
+}
+.story img{
+    width: 80px;
+    height: 70px;
+}
+
+.story{
+    border-radius: 1px solid #000;
+}
+.name-story{
+    text-align: center;
+    margin-left: 12px;
+}
+
+
+
+  
