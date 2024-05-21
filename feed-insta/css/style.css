@@ -136,7 +136,7 @@ section .interface{
 }
 
 .story img{
-    width: 80px;
+    width: 77px;
     height: 70px;
 }
 
@@ -146,17 +146,22 @@ section .interface{
 }
 
 
-.list-itens li , p {
+.list-itens li , span {
     cursor: pointer;
 }
 
-.list-itens p {
+.name-story {
     font-size: 12px;
     font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 /* FEED NOTICIAS */
 
-
+.element-feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
   
