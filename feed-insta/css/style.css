@@ -161,7 +161,14 @@ section .interface{
 .element-feed{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 33.3%;
+    gap: 3px;
+    margin-top: 2.2rem;
+}
+
+.element-feed img{
+    width: 2.7rem;
 }
 
   
